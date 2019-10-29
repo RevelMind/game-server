@@ -1,0 +1,12 @@
+{
+    "name": "gameclient",
+    "description": "A client that connects to a game server.",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "dependencies": {
+        "node-fetch": "^2.6.0"
+    }
+}
