@@ -23,7 +23,7 @@ window.addEventListener("load", () => {
     };
 
     setInterval(() => {
-        var data = getData("http://172.16.1.76:8080/updatePos"); // the server
+        var data = getData("http://localhost:8080/updatePos"); // the server
         var timeThen = getDate()
         data.then((value) => {
             var timeNow = getDate();

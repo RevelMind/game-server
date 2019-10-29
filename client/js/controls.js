@@ -71,6 +71,6 @@ window.onload = () => {
         x += horoSpeed
         cube.style.top = y.toString() + "px";
         cube.style.left = x.toString() + "px";
-        getData(`http://172.16.1.76:8080/setPos/${x.toString()}/${y.toString()}`);
+        getData(`http://localhost:8080/setPos/${x.toString()}/${y.toString()}`);
     }, 0)
 }
