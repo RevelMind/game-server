@@ -8,7 +8,8 @@
 ### Usage
 To get started with the `Game Server` project, run the following:
 ```bash
-node server.js
+node server.js # Should output:
+# > Hosted server at localhost:8080
 cd client
 npm start
 ```
